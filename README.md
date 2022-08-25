@@ -12,19 +12,15 @@
 
 ## be careful for set path beacuse i use path in diffrent place
     ### Desired photo input path
-
     path = "INPUT"
 
     ###  Desired photo output path
-
     new_path = "OUTPOT"
 
-# this show u all of image names u have in directory
-
-
+    # this show u all of image names u have in directory
     os.listdir(path)[0 :len(os.listdir(path))]
 
-
+## now 
 
     for image in os.listdir(path)[0 :len(os.listdir(path))]:
   
