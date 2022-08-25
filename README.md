@@ -24,7 +24,8 @@
 
     for image in os.listdir(path)[0 :len(os.listdir(path))]:
   
-    #      i use path |there|   
+    # i use path |there|   
+    
     img = cv.imread(path + "/{} ".format(image))
     
     #change colorformat u want      |......there....|     
@@ -36,6 +37,7 @@
 
 
     #     THIS FOR TEST FOR img_gray.... NOT IMPORTANT .....
+    
     #     imag_resize = cv.resize(img_gray, (800, 600))
     #     cv.imshow(path + "/{} ".format(image) , imag_resize)
     #     cv.waitKey(4000)
