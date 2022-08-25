@@ -11,11 +11,11 @@
 
 
 ## be careful for set path beacuse i use path in diffrent place
-### Desired photo input path
+    ### Desired photo input path
 
     path = "INPUT"
 
-###  Desired photo output path
+    ###  Desired photo output path
 
     new_path = "OUTPOT"
 
